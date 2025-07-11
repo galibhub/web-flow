@@ -74,11 +74,13 @@ body {
 
 .ui {
     text-align: center;
+    font-size: larger;
 }
 
 .logo-ui {
     text-align: center;
     margin-bottom: 50px;
+    
 
 }
 
