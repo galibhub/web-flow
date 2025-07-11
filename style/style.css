@@ -6,7 +6,7 @@ body {
 
 .section-1 {
     height: 350px;
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
