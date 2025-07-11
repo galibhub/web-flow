@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7ff;
+}
+
 .section-1 {
     height: 350px;
     background-image: url(/Assets/Hero-bg.png);
@@ -63,7 +69,7 @@
 }
 
 
-/*main*/
+
 
 .main-section {
     width: 100%;
@@ -93,7 +99,7 @@
     border-radius: 10px;
     color: #FFFFFF;
     border: none;
-    cursor: pointer;
+    
 }
 
 .image-webflow {
@@ -159,3 +165,105 @@
     color: #555;
     margin-top: 10px;
 }
+
+
+.user-say {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.say {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+.review-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.user-reviews {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+
+.stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+
+.heading-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+
+.heading-description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+
+.heading-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.heading-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.date {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+
+
+.focus-better {
+  height: auto; 
+  text-align: center;
+  background-color: #ffffff;
+  max-width: 1140px;
+  border-radius: 14px;
+  margin: 100px auto;       
+  padding: 40px 20px;     
+
+}
+
+.img-webflow-2022 {
+  max-width: 365px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.better {
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+
