@@ -141,6 +141,7 @@ body {
     color: #1A1A1A;
 }
 
+
 .user-percentage {
     display: flex;
     justify-content: center;
@@ -267,3 +268,69 @@ body {
 }
 
 
+.form-filup {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px;
+  background-color: #f5f7ff;
+}
+
+
+.h-ding {
+  width: 40%;
+  padding: 60px;
+}
+
+.h-ding h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+}
+
+
+.form {
+  width: 50%;
+}
+
+
+.fillup {
+  display: block;
+}
+
+.fillup label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+
+.fillup input,
+.fillup textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+
+#message {
+  height: 100px;
+}
+
+
+.touch {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #4E47FF;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
